@@ -1,0 +1,7 @@
+a=int(input("ENTER FIRST NUMBER: "))
+B= int(input("ENTER SECOND NUMBER: "))
+
+if a > B :
+    print("FIRST NUMBER IS GREATER THAN SECOND NUMBER")
+else:
+    print("SECOND NUMBER IS GREATER THAN FIRST NUMBER")  
