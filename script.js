@@ -1,5 +1,5 @@
-function multiply(a,b,c){
-    return(a*b*c);
-}
-let result = multiply(10, 20, 67);
-console.log(result)
+let numbers = [5, 12, 18, 21, 30, 37, 40];
+for(let number of numbers)
+    if(number>15 && number%2===0){
+        console.log(number)
+    }
