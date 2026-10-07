@@ -1,16 +1,6 @@
-from turtle import*
+series = [35,45,36,21,30,1,2]
+largest = series[0]
+second = series[0]
 
-speed(0)
-bgcolor("black")
-setposition(-4, -2)
-color('aqua')
-tracer(3,0)
-hideturtle()
-for i in range(500):
-    rt(i)
-    circle(150,i)
-    fd(70)
-    right(210)
-    fd(i)
-    lt(1)
-done()
+for i in series:
+    
