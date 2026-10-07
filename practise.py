@@ -1,18 +1,16 @@
-pin = int(input("Enter your pin number:"))
+from turtle import*
 
-if pin == 1234:
-    print("Correct Pin")
-elif amount <= 0:
-    print("Invalid Amount")
-elif amount > balance:
-    print("Insufficient Balance")
-else:
-    print("Withdrawl Successful")
-    print("Remaining balance:", balance-amount)
-
-
-
-
-
-
-
+speed(0)
+bgcolor("black")
+setposition(-4, -2)
+color('aqua')
+tracer(3,0)
+hideturtle()
+for i in range(500):
+    rt(i)
+    circle(150,i)
+    fd(70)
+    right(210)
+    fd(i)
+    lt(1)
+done()

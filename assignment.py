@@ -1,5 +1,0 @@
-print("Hello")
-print("My name is Jayesh")
-print("I am from Rohtak, Haryana.")
-print("My favourite subject is Mathematics.")
-print("Because in mathematics we have to think logically and it is very interesting.")
