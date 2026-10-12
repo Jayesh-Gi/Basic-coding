@@ -1,12 +1,11 @@
-const student = [
-    { name: "Aman", marks: 85 },
-    { name: "Rahul", marks: 72 },
-    { name: "Priya", marks: 90 },
-    { name: "Neha", marks: 65 }
-    
+const employees = [
+    { name: "Aman", salary: 25000 },
+    { name: "Riya", salary: 40000 },
+    { name: "Karan", salary: 18000 },
+    { name: "Neha", salary: 35000 }
 ];
-for (let s of student){
-    if (s.marks < 80){
-        console.log(s.name);
+ for (let e of employees){
+    if(e.salary >=25000){
+        console.log(e.name)
     }
-}
+ }
