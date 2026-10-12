@@ -1,13 +1,9 @@
-"use strict";
-let product1 = {
-    name: "Laptop",
-    price: 50000,
-    id: 1
+const car = {
+    brand:"TOYOTA",
+    model:"Fortuner",
+
+    showDetails: function(){
+        console.log(this.brand, this.model)
+    }
 };
-let product2 = {
-    name: "Phone",
-    price: 60000,
-    id: 2
-};
-console.log(product1);
-console.log(product2);
+car.showDetails();
