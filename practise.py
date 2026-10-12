@@ -1,6 +1,7 @@
-series = [35,45,36,21,30,1,2]
-largest = series[0]
-second = series[0]
+sentence = "Hi I am Jayesh"
+count = 0
 
-for i in series:
-    
+for word in sentence.split():
+    count +=1
+
+print("Number of word",count)
