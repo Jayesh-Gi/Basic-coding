@@ -1,10 +1,12 @@
-const name ={
-    name: "Aman",
-    salary: 30000,
+const counter = {
+    count: 0,
 
-    increaseSalary:function(){
-        this.salary = this.salary+5000
-        console.log(this.salary)
+    increase:function(){
+        this.count  = this.count+1;
+        console.log(this.count)
     }
-} 
-name.increaseSalary();
+};
+
+counter.increase();
+counter.increase();
+counter.increase();
