@@ -1,9 +1,10 @@
-const car = {
-    brand:"TOYOTA",
-    model:"Fortuner",
+const name ={
+    name: "Aman",
+    salary: 30000,
 
-    showDetails: function(){
-        console.log(this.brand, this.model)
+    increaseSalary:function(){
+        this.salary = this.salary+5000
+        console.log(this.salary)
     }
-};
-car.showDetails();
+} 
+name.increaseSalary();
