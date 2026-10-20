@@ -3,5 +3,7 @@ car = {
     "model" : "Scorpio N",
     "year" : 2026
 }
-for J, A in car.items():
-    print(f"{J}:{A}")
+car["color"] = "Black"
+del car["color"]
+for k ,v in car.items():
+    print(f"{k} : {v}")
