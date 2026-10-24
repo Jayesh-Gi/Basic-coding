@@ -1,9 +1,11 @@
-car = {
-    "brand" : "Mahindra",
-    "model" : "Scorpio N",
-    "year" : 2026
+contacts = {
+    "Nikhil": 9876543212,
+    "Rahuk": 1234567899,
+    "Manu": 1234567894
 }
-car["color"] = "Black"
-del car["color"]
-for k ,v in car.items():
-    print(f"{k} : {v}")
+name = input("Enter name:")
+
+if name in contacts :
+    print(f"{name} number:{contacts [name]}")
+else:
+    print("contact not found")
