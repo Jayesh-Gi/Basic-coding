@@ -5,36 +5,33 @@ item2 = input()
 qty2 = int(input())
 
 updated_item = input()
-extra =  int(input())
+extra = int(input())
 
-stock = {
-    item1: qty1,
-    item2: qty2
+borrowing = {
+    item1:qty1,
+    item2:qty2
 }
 
-stock[updated_item] += extra
+borrowing[updated_item] +=extra
 
-updated_qty = stock[updated_item]
+updated_qty = borrowing[updated_item]
 
-if updated_qty >=30:
-    level =  "High"
-elif updated_qty >=15:
-    level = "Medium"
+if updated_qty >= 25:
+    level= "Busy"
+elif updated_qty >= 12:
+    level = "Moderate"
 else:
-    level = "Low"
+    level = "Quiet"
 
-total = sum(stock.values())
+total = sum(borrowing.values())
 
-
-if stock[item1] > stock[item2]:
+if borrowing[item1] > borrowing[item2]:
     highest_item = item1
+
 else:
     highest_item = item2
 
-print("Stock:")
-print(f"{item1}: {stock[item1]}")
-print(f"{item2}: {stock[item2]}")
-print(f"Updated: {updated_item} - {updated_qty}")
-print(f"Level: {level}")
-print(f"Total: {total}")
-print(f"Highest: {highest_item} - {stock[highest_item]}")
+highest_qty = borrowing[highest_item]
+
+print("Highest:" , highest_item, "-", highest_qty) 
+print("Borrowing:")
