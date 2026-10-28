@@ -1,16 +1,7 @@
-saving_amount = float(input())
-monthly_amount = float(input())
-months = int(input())
+number = "123443211234432234321234323"
+count = 0
+for char in number:
+    if char =="2":
+         count +=1
 
-
-for i in range(1 ,months+1):
-    saving_amount +=monthly_amount
-    print(f"Month {i}: {saving_amount:.2f}")
-
-
-
-
-Total_deposited = monthly_amount * months
-
-print(f"balance {saving_amount:.2f}")
-print(f"Total deposited: {Total_deposited :.2f}")
+print(count) 
