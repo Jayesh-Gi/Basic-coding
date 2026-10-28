@@ -1,9 +1,16 @@
-matrix = []
+saving_amount = float(input())
+monthly_amount = float(input())
+months = int(input())
 
-for row_number in range(3):
-    values = input().split()
-    row = [int(values[0]), int(values[1]), int(values[2])]
-    matrix.append(row)
 
-for row in matrix:
-    print(row)
+for i in range(1 ,months+1):
+    saving_amount +=monthly_amount
+    print(f"Month {i}: {saving_amount:.2f}")
+
+
+
+
+Total_deposited = monthly_amount * months
+
+print(f"balance {saving_amount:.2f}")
+print(f"Total deposited: {Total_deposited :.2f}")
