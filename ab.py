@@ -1,7 +1,7 @@
 n = int(input())
-digit_sum = 0
+count = 0
 
 while n > 0:
-    digit_sum += n % 10
+    count += 1
     n //= 10
-print(digit_sum)
+print(count)
