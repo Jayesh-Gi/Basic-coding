@@ -10,9 +10,18 @@
 #     print(num)
 
 
-for i in range(1,11):
-    if i % 2==0:
+# for i in range(1,11):
+#     if i % 2==0:
+#         continue
+#     if i == 9:
+#         break
+#     print(i) 
+
+numbers = [3, 7, 12, 5, 15, 8]
+
+for i in numbers:
+    if i < 10:
         continue
-    if i == 9:
-        break
-    print(i) 
+    print(i)
+    break
+    
