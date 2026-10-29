@@ -1,13 +1,10 @@
-text = input()
-vowels = "aeiou"
-count = 0
+target = int(input())
+numbers = [4,7,2,9,5,8]
 
-for ch in text:
-    if ch.lower() not in vowels:
-        continue
-    count +=1
-
-    if count == 3:
+for num in numbers:
+    if num == target:
+        print("Found")
         break
-print("Vowels:", count)
-
+    if num % 2 == 0:
+        continue
+    print(num)
