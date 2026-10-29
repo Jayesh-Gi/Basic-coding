@@ -1,12 +1,13 @@
-n = int(input())
-i = 0
+text = input()
+vowels = "aeiou"
+count = 0
 
-while i < n:
-    i += 1
-
-    if i == 5:
+for ch in text:
+    if ch.lower() not in vowels:
         continue
-    elif i == 8:
+    count +=1
+
+    if count == 3:
         break
-    else:
-        print(i)
+print("Vowels:", count)
+
