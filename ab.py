@@ -180,43 +180,53 @@
 #         highest_salary = salary
 #         top_employee = employee
 
-products = {
-    "Laptop": 55000,
-    "Mouse": 800,
-    "Keyboard": 1500,
-    "Monitor": 12000,
-    "Headphones": 2500,
-    "Mobile": 30000
-}
+# products = {
+#     "Laptop": 55000,
+#     "Mouse": 800,
+#     "Keyboard": 1500,
+#     "Monitor": 12000,
+#     "Headphones": 2500,
+#     "Mobile": 30000
+# }
 
-total = 0
-cheapest_price = float("inf")
-highest_price = 0
-cheapest_product = ""
-top_product = ""
-count = 0
-cheap_products = []
+# total = 0
+# cheapest_price = float("inf")
+# highest_price = 0
+# cheapest_product = ""
+# top_product = ""
+# count = 0
+# cheap_products = []
 
-for product,price in products.items():
-    total += price
+# for product,price in products.items():
+#     total += price
 
-    if price < cheapest_price:
-        cheapest_price = price
-        cheapest_product = product
+#     if price < cheapest_price:
+#         cheapest_price = price
+#         cheapest_product = product
 
-    if price > highest_price:
-        highest_price = price
-        top_product = product
+#     if price > highest_price:
+#         highest_price = price
+#         top_product = product
 
-    if price > 10000:
-        count +=1
-    if price < 5000:
-        cheap_products.append(product)
+#     if price > 10000:
+#         count +=1
+#     if price < 5000:
+#         cheap_products.append(product)
 
-print("Total Value:", total)
-print("Cheapest Product:", cheapest_product)
-print("Cheapest Price:",cheapest_price)
-print("Most Expensive Product:", top_product)
-print("Highest Price:", highest_price)
-print("Products Above 10000:",count)
-print("Products Below 5000:",  cheap_products)
+# print("Total Value:", total)
+# print("Cheapest Product:", cheapest_product)
+# print("Cheapest Price:",cheapest_price)
+# print("Most Expensive Product:", top_product)
+# print("Highest Price:", highest_price)
+# print("Products Above 10000:",count)
+# print("Products Below 5000:",  cheap_products)
+
+age_text = input("Your age: ")
+
+while not age_text.isdigit():
+    print("Please enter digits only.")
+    age_text = input("Your age: ")
+
+age = int(age_text)
+
+print("Your age is", age)
