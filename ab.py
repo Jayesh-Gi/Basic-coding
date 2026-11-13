@@ -221,12 +221,22 @@
 # print("Products Above 10000:",count)
 # print("Products Below 5000:",  cheap_products)
 
-age_text = input("Your age: ")
+# age_text = input("Your age: ")
 
-while not age_text.isdigit():
-    print("Please enter digits only.")
-    age_text = input("Your age: ")
+# while not age_text.isdigit():
+#     print("Please enter digits only.")
+#     age_text = input("Your age: ")
 
-age = int(age_text)
+# age = int(age_text)
 
-print("Your age is", age)
+# print("Your age is", age)
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print(matrix[0])     
+print(matrix[0][1])  
+print(matrix[1][2])  
