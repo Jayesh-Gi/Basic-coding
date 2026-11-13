@@ -231,12 +231,21 @@
 
 # print("Your age is", age)
 
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
 
-print(matrix[0])     
-print(matrix[0][1])  
-print(matrix[1][2])  
+# print(matrix[0])     
+# print(matrix[0][1])  
+# print(matrix[1][2])  
+
+matrix = []
+for i in range(2):
+    row = []
+    for j in range(3):
+          num = int(input())
+          row.append(num)
+    matrix.append(row)
+print(matrix)
