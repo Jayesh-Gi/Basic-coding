@@ -241,11 +241,32 @@
 # print(matrix[0][1])  
 # print(matrix[1][2])  
 
-matrix = []
-for i in range(2):
-    row = []
-    for j in range(3):
-          num = int(input())
-          row.append(num)
-    matrix.append(row)
-print(matrix)
+# matrix = []
+# for i in range(2):
+#     row = []
+#     for j in range(3):
+#           num = int(input())
+#           row.append(num)
+#     matrix.append(row)
+# print(matrix)
+
+# matrix = []
+# for i in range(3):
+#     row = []
+#     for j in range(2):
+#         num = int(input())
+#         row.append(num)
+#     matrix.append(row)
+# print(matrix)
+
+# matrix = []
+# for i in range(3):
+#     row = []
+#     for j in range(3):
+#         num = int(input())
+#         row.append(num)
+#     matrix.append(row)
+# print(matrix)
+
+
+
