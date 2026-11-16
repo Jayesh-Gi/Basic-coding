@@ -11,8 +11,8 @@
 // box.innerHTML = "<h2>My First DOM Practice</h2>";
 // console.log(box)
 
-const input = document.getElementByID("username")
+// const input = document.getElementByID("username")
 
-element.setAttribute("attributeName","value")
-input.setAttribute("placeholder","Enter your name")
-console.log(input);
+// element.setAttribute("attributeName","value")
+// input.setAttribute("placeholder","Enter your name")
+// console.log(input);
