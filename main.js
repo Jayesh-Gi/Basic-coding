@@ -16,3 +16,8 @@
 // element.setAttribute("attributeName","value")
 // input.setAttribute("placeholder","Enter your name")
 // console.log(input);
+
+const heading = document.getElementById("heading")
+heading.style.color = "blue";
+heading.style.backgroundColor = "black"
+heading.style.fontSize = "35px"
