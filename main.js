@@ -17,7 +17,12 @@
 // input.setAttribute("placeholder","Enter your name")
 // console.log(input);
 
+// const heading = document.getElementById("heading")
+// heading.style.color = "blue";
+// heading.style.backgroundColor = "black"
+// heading.style.fontSize = "35px"
+
 const heading = document.getElementById("heading")
-heading.style.color = "blue";
-heading.style.backgroundColor = "black"
-heading.style.fontSize = "35px"
+heading.classList.add("highlight")
+heading.classList.remove("highlight")
+heading.classList.toggle("highlight")
