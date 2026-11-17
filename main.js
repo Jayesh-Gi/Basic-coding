@@ -22,7 +22,15 @@
 // heading.style.backgroundColor = "black"
 // heading.style.fontSize = "35px"
 
-const heading = document.getElementById("heading")
-heading.classList.add("highlight")
-heading.classList.remove("highlight")
-heading.classList.toggle("highlight")
+// const heading = document.getElementById("heading")
+// heading.classList.add("highlight")
+// heading.classList.remove("highlight")
+// heading.classList.toggle("highlight")
+
+const heading = document.getElementById("title")
+heading.textContent = "My Profile"
+
+const p = document.querySelector("p")
+p.textContent = "I love JavaScript"
+
+heading. classList.add("highlight")
