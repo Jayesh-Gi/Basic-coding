@@ -27,10 +27,16 @@
 // heading.classList.remove("highlight")
 // heading.classList.toggle("highlight")
 
-const heading = document.getElementById("title")
-heading.textContent = "My Profile"
+// const heading = document.getElementById("title")
+// heading.textContent = "My Profile"
 
-const p = document.querySelector("p")
-p.textContent = "I love JavaScript"
+// const p = document.querySelector("p")
+// p.textContent = "I love JavaScript"
 
-heading. classList.add("highlight")
+// heading. classList.add("highlight")
+
+// const image = document.getElementById("photo")
+// image.setAttribute("src","nature.jpg");
+// image.setAttribute("alt","Nature Image")
+
+// console.log(image);
