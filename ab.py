@@ -282,24 +282,14 @@
 #     for num in row:
 #         print(num)
 
-matrix = [
-    [1,2,3,4],
-    [5,6,7,8]
-]
-total = 0
-for row in matrix:
-    for num in row:
-        total +=num
-print(total)
+# 
 
 matrix = [
-    [1,8,7,6],
-    [2,4,5,9]
+    [1,2,3,7],
+    [2,5,8,5]
 ]
-for row in matrix:
-    row_sum =0
-    for num in row:
-        row_sum+=num
-    print(row_sum)
-
-    
+for j in range(4):
+    col_sum = 0
+    for i in range(2):
+        col_sum += matrix[i][j]
+    print(col_sum)
