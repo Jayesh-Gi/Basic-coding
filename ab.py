@@ -268,16 +268,38 @@
 #     matrix.append(row)
 # print(matrix)
 
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6]
-]
-print (matrix[0])
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6]
+# ]
+# print (matrix[0])
+
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6]
+# ]
+# for row in matrix:
+#     for num in row:
+#         print(num)
 
 matrix = [
-    [1, 2, 3],
-    [4, 5, 6]
+    [1,2,3,4],
+    [5,6,7,8]
 ]
+total = 0
 for row in matrix:
     for num in row:
-        print(num)
+        total +=num
+print(total)
+
+matrix = [
+    [1,8,7,6],
+    [2,4,5,9]
+]
+for row in matrix:
+    row_sum =0
+    for num in row:
+        row_sum+=num
+    print(row_sum)
+
+    
