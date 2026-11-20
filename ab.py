@@ -282,14 +282,34 @@
 #     for num in row:
 #         print(num)
 
-# 
+# matrix = [
+#     [1,2,3,7],
+#     [2,5,8,5]
+# ]
+# for j in range(4):
+#     col_sum = 0
+#     for i in range(2):
+#         col_sum += matrix[i][j]
+#     print(col_sum)
 
 matrix = [
-    [1,2,3,7],
-    [2,5,8,5]
+    [12,5,30],
+    [8,40,2]
 ]
-for j in range(4):
-    col_sum = 0
-    for i in range(2):
-        col_sum += matrix[i][j]
-    print(col_sum)
+maximum = matrix[0][0]
+for row in matrix:
+    for num in row:
+        if num > maximum:
+            maximum = num
+print(maximum)
+
+matrix = [
+    [12,5,30],
+    [8,40,2]
+]
+minimum = matrix[0][0]
+for row in matrix:
+    for num in row:
+        if num < minimum:
+            minimum = num
+print(minimum)
